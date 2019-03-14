@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    margin: 0;
+    font-family: 'Oswald'
+}
+
+.container {
+    background-color: paleturquoise;
+    width: 100%;
+    display: table;
+
+}
+
+.name {
+    color: white !important;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+}
+
+.name a {
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+.navbar {
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inLine;
+    margin-left: 2rem;
+    letter-spacing: 2px;
+    margin-right: 2rem;
+}
+
+.navbar a:hover {
+    color: darkred;
+}
