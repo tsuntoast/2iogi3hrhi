@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+    background-color: paleturquoise
+}
 
 body {
     margin: 0;
-    font-family: 'Oswald'
+    font-family: 'Playfair Display'
 }
 
 .container {
-    background-color: paleturquoise;
+    /* background-color: paleturquoise; */
     width: 100%;
     display: table;
 
@@ -27,6 +31,7 @@ body {
     color: white;
     text-decoration: none;
     margin-left: 3rem;
+    text-align: center;
 }
 
 .navbar {
