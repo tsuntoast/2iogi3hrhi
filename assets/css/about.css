@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+    background-color: paleturquoise
+}
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display'
+}
