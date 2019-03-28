@@ -56,3 +56,48 @@ body {
 .navbar a:hover {
     color: darkred;
 }
+
+.ham_menu {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 0.5rem 0;
+    border-radius: 1px;
+}
+
+.navbar-btn {
+    float: right;
+    display: none;
+}
+
+.hidehamburger {
+    visibility: hidden;
+}
+
+.exit-img{
+    background-image: url(/assets/images/exit.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width:840px) {
+    .navbar li {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: block;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-btn {
+        margin-top: -2rem;
+        display: block;
+    }
+
+    .full-navbar {
+        display: none;
+    }
+}
