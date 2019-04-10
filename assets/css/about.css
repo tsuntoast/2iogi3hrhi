@@ -8,3 +8,9 @@ body {
     margin: 1;
     font-family: 'Playfair Display'
 }
+
+.container {
+    width: 100%;
+    display: table;
+
+}
