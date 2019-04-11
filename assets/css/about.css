@@ -14,3 +14,10 @@ body {
     display: table;
 
 }
+
+.name h1 {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 2rem;
+}
