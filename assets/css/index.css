@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
+
 * {
     background-color: paleturquoise
 }
@@ -10,7 +11,7 @@ body {
 }
 
 .container {
-    /* background-color: paleturquoise; */
+    background-color: paleturquoise;
     width: 100%;
     display: table;
 
@@ -18,26 +19,27 @@ body {
 
 .name {
     color: white !important;
-    font-size: 1rem;
-    letter-spacing: 5px;
+    font-size: 5rem;
+    letter-spacing: 2.5px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    text-align: left;
+    /* margin-left: 2rem;
+    margin-top: 2rem; */
     
 }
 
 .name a {
     color: white;
     text-decoration: none;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     text-align: center;
 }
 
 .navbar {
     float: right;
     margin-right: 2rem;
-    margin-top: 1rem;
+    text-align: right;
 }
 
 .navbar a {
@@ -61,7 +63,7 @@ body {
     width: 35px;
     height: 3px;
     background-color: white;
-    margin: 0.5rem 0;
+    margin: 0.5rem;
     border-radius: 1px;
 }
 
