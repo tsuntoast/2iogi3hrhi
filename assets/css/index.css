@@ -2,7 +2,7 @@
 
 
 * {
-    background-color: paleturquoise
+    background-color: black
 }
 
 body {
@@ -23,9 +23,8 @@ body {
     letter-spacing: 2.5px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: left;
-    /* margin-left: 2rem;
-    margin-top: 2rem; */
+    text-align: center;
+    margin-top: 2rem;
     
 }
 
@@ -37,9 +36,8 @@ body {
 }
 
 .navbar {
-    float: right;
-    margin-right: 2rem;
-    text-align: right;
+    float: center;
+    text-align: center;
 }
 
 .navbar a {
@@ -102,4 +100,37 @@ body {
     .full-navbar {
         display: none;
     }
+}
+
+@keyframes shake {
+    from,
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+      
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translate3d(-10px, 0, 0);
+    }
+      
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+.animated h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    animation-name: shake;
+}
+
+.animated h1 {
+    animation-iteration-count: infinite;
 }
