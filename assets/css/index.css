@@ -124,13 +124,15 @@ body {
     }
 }
 
-.animated h1 {
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    animation-name: shake;
+.animated infinite shake {
+    float: center;
 }
 
-.animated h1 {
+.animated infinite shake a {
+    color: white;
+
+    font-size: 2rem;
+    animation-name: shake;
     animation-iteration-count: infinite;
 }
+
