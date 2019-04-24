@@ -12,9 +12,7 @@ body {
 .container {
     width: 100%;
     display: table;
-}
 
-.name h1 {
     color: white;
     text-decoration: none;
     text-align: left;
