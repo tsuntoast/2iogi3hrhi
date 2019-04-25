@@ -2,7 +2,7 @@
 
 
 * {
-    background-color: black
+    background-color: paleturquoise
 }
 
 body {
@@ -101,37 +101,35 @@ body {
     }
 }
 
-@keyframes shake {
-    from,
+@-webkit-keyframes rollIn {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+  
     to {
-        transform: translate3d(0, 0, 0);
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
-      
-    10%,
-    30%,
-    50%,
-    70%,
-    90% {
-        transform: translate3d(-10px, 0, 0);
+  }
+  
+  @keyframes rollIn {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
     }
-      
-    20%,
-    40%,
-    60%,
-    80% {
-        transform: translate3d(10px, 0, 0);
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
-}
-
-.animated infinite shake {
-    float: center;
-}
-
-.animated infinite shake a {
-    color: white;
-
-    font-size: 2rem;
-    animation-name: shake;
-    animation-iteration-count: infinite;
-}
-
+  }
+  
+  .rollIn {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn;
+  }
