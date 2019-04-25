@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
-    background-color: black;
+    background-color: paleturquoise;
 }
 
 body {
@@ -12,9 +12,16 @@ body {
 .container {
     width: 100%;
     display: table;
+}
 
+.name h1 {
     color: white;
     text-decoration: none;
-    text-align: left;
+    text-align: center;
+}
+
+.navbar li {
+    list-style-type: none;
+    text-align: center;
     margin-left: 2rem;
 }
