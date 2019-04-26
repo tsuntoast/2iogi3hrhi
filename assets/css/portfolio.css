@@ -22,7 +22,23 @@ body {
 
 .navbar li {
     list-style-type: none;
-    text-align: left;
-    margin-left: 20rem;
-    
+    text-align: center;
+    margin-left: -2.5rem;
+}
+
+.navbar a:hover {
+    color: darkred;
+}
+
+.navbar {
+    float: center;
+}
+
+.bottom-navbar {
+    float: center;
+    text-align: center;
+}
+
+.bottom-navbar a:hover {
+    color: darkred;
 }
