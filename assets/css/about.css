@@ -12,7 +12,6 @@ body {
 .container {
     width: 100%;
     display: table;
-
 }
 
 .name h1 {
@@ -24,6 +23,10 @@ body {
 .name p {
     margin-left: 10rem;
     margin-right: 10rem;
+}
+
+a:hover {
+    color: darkred;
 }
 
 .bottom-navbar {
